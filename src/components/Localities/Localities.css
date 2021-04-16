@@ -9,13 +9,14 @@
 }
 
 .grid-container {
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .location-div {
-    width: 18vw;
+    width: 30%;
     height: 70px;
     margin-bottom: 30px;
     background-color: white;

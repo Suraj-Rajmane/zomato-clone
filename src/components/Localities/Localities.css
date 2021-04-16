@@ -1,0 +1,29 @@
+#popular-locations {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.localities-heading {
+    font-size: 40px;
+    color: black;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.location-div {
+    width: 18vw;
+    height: 70px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.location-div:hover {
+    box-shadow: 1px 1px 10px #ccc;
+}

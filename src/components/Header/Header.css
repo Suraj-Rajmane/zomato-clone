@@ -1,0 +1,73 @@
+#header-img {
+    position: relative;
+    width: 100vw;
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(https://amritsr.com/wp-content/uploads/2020/08/Specialty-of-Indian-Cuisine.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width:  100vw;
+    height: 60px;
+}
+
+.nav-menu {
+    width: 60vw;
+    height: 60px;
+}
+
+.zomato {
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+.greeting {
+    font-size: 44px;
+    margin: 10px;
+}
+
+.header-flex {
+    margin-top: 50px;
+}
+
+.nav-link {
+    border-bottom: 0px solid black;
+    transition: border-bottom 0.3s;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    border-bottom: 5x solid white;
+}
+
+.search-box {
+    width: 30vw;
+    height: 54px;
+    background-color: white;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.search-btn {
+    width: 130px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+
+}
